@@ -1,3 +1,14 @@
+# Segredos
 .env
+
+# Python / uv
 .venv/
 __pycache__/
+*.pyc
+
+# Banco local (estado do condominio e sessoes do ADK)
+var/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
